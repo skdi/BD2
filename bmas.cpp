@@ -2,7 +2,7 @@
  * C++ Program to Implement B Tree
  */
 #include<stdio.h>
-#include<conio.h>
+//#include<conio.h>
 #include<iostream>
 using namespace std;
 struct BTreeNode
@@ -194,5 +194,5 @@ int main()
     }
     cout<<"traversal of constructed tree\n";
     traverse(root);
-    getch();
+    //getch();
 }
