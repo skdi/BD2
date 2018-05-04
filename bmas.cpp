@@ -5,6 +5,26 @@
 //#include<conio.h>
 #include<iostream>
 using namespace std;
+struct factura{
+    int factura_serie;
+    int factura_num;
+    string iddocumento;
+    int guia_serie;
+    int  guia_num;
+    string idcliente;
+    float valor_total;
+    float valor_venta;
+    float igv;
+    string fecha_emision;
+    string fecha_cancelado;
+    bool cancelado;
+    int periodo;
+    bool impreso;
+    string observacion;
+    string serie_num;
+
+}*hola=NULL;
+
 struct BTreeNode
 {
     int *data;
